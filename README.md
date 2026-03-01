@@ -13,7 +13,7 @@ A fully browser-native rebuild of the classic 2048 game with scalable architectu
 
 ## 🚀 Live Demo
 
-👉 2048-ai-alpha.vercel.app
+[2048-ai-alpha.vercel.app](https://2048-ai-alpha.vercel.app/)
 
 ---
 

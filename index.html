@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -9,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
   <div class="background-animation"></div>
@@ -17,7 +19,7 @@
     <header class="header">
       <div class="header-content">
         <h1 class="title">2048</h1>
-        
+
         <div class="stat-container">
           <div class="stat-grid">
             <div class="stat">
@@ -41,7 +43,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="controls-row">
         <p class="subtitle">Join the numbers and get to the <strong>2048 tile!</strong></p>
         <div class="btn-group">
@@ -59,7 +61,7 @@
           <div id="grid-bg" class="grid-bg"></div>
           <!-- Tiles will be injected here -->
           <div id="tile-container" class="tile-container"></div>
-          
+
           <!-- Game Over / Win Message Overlay -->
           <div id="game-message" class="game-message hidden">
             <h2 id="message-title">Game Over!</h2>
@@ -70,7 +72,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Settings Modal overlay -->
       <div id="settings-modal" class="modal hidden">
         <div class="modal-content">
@@ -91,10 +93,14 @@
       </div>
     </main>
     <footer class="instructions">
-      <p><strong>HOW TO PLAY:</strong> Use your <strong>arrow keys</strong>, <strong>WASD</strong>, or <strong>swipe</strong> to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach <strong>2048!</strong></p>
+      <p><strong>HOW TO PLAY:</strong> Use your <strong>arrow keys</strong>, <strong>WASD</strong>, or
+        <strong>swipe</strong> to move the tiles. Tiles with the same number merge into one when they touch. Add them up
+        to reach <strong>2048!</strong>
+      </p>
     </footer>
   </div>
 
   <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
